@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:okapia_app/developer/dev_count.dart';
 import 'package:okapia_app/developer/dev_pages.dart';
+import 'package:okapia_app/developer/login/index.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -12,7 +13,7 @@ class _HomeExPageState extends State<HomePage> {
   var _currentIndex = _initialIndex;
   var _pageController = PageController(initialPage: _initialIndex);
   var _pages = [
-    DevEmpty(),
+    LoginScreen(),
     DevEmpty(),
     DevPages(),
     DevCountPage(title: "test")

@@ -23,13 +23,13 @@ class DevPages extends StatelessWidget {
 class DevEmpty extends StatelessWidget {
   final String title;
 
-  DevEmpty({this.title = "Dev Empty"});
+  DevEmpty({this.title = "Dev Empty11"});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(title)),
-      body: Center(child: Text("Demo widget")),
+      body: Center(child: Text("Demo widget11")),
     );
   }
 }
